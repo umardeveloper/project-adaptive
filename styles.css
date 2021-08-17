@@ -1,0 +1,133 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' ;
+    background-color: gold;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ins{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    background-color: red;
+    color: green;
+}
+.container {
+    max-width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .left{
+      width: 390px;
+      padding: 40px;
+      background-color: rgb(220, 220, 220);
+      height: 494px;
+      overflow: auto;
+
+  }
+  .left-heading-info{
+      display: flex;
+      justify-content: space-between;
+  }
+  .left-desc{
+      font-size: 30px;
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+  }
+  .left-desc:hover{
+      opacity: 0.5;
+  }
+  .cards{
+      cursor: pointer;
+      background-color: #fff;
+      border-radius: 5px;
+      border: 3px solid white;
+      padding: 5px;
+      margin-bottom: 20px;
+  }
+  .cards:hover{
+    border-color:rgba(3, 102, 214, 0.3) ;   
+}
+
+.right{
+    width: 560px;
+    background-color: #fff;
+}
+.right-head__info{
+    display: flex;
+    justify-content: space-between;
+}
+.dollar{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.phones-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.plus{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     border-radius: 50%;
+     border: none;
+     margin-top: 20px;
+     margin-right: 50px;
+     background-color: rgb(220, 220, 220);
+     cursor: pointer;
+
+  
+}
+.h3-color{
+    color: rgb(119, 115, 115);
+    font-size: 14px;
+}
+.phone-h3{
+    flex-direction: column;
+}
+.list-info{
+    display: flex;
+    flex-direction: column;
+}
+.h3-color{
+    margin-top: -10px;
+}
+
+.phone-sale{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.color-green
+{
+    color: green;
+    
+}
+@media only screen and (max-width: 854px){
+    .container{
+        display: block;
+        
+    }
+}
